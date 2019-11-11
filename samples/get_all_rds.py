@@ -133,7 +133,7 @@ class RDS:
         try:
             instrance['instance_id'] = ins['DBInstanceId']
             instrance['instance_name'] = ins.get('DBInstanceDescription')
-            instrance['instance_type'] = ins.get('DBInstanceDescription')
+            instrance['instance_type'] = ins.get('DBInstanceType')
             instrance['instancenet_type'] = ins.get('DBInstanceNetType')
             instrance['vpc_cloud_instance_id'] = ins.get('VpcCloudInstanceId')
             instrance['vpc_id'] = ins.get('VpcId')
